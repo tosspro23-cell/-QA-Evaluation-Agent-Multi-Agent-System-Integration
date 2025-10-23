@@ -23,7 +23,7 @@ It automatically reviews the outputs of all specialized agents, measures factual
 | **CritSit Advisor** | Provides crisis analysis and response strategy | Incident data, Wiki, SOP | Actionable strategy report |
 | **Exec Comm Agent** | Creates executive communication updates | Case summary, impact notes | Executive-style email or report |
 | **Wiki Agent** | Retrieves or updates internal knowledge base | Query / SOP reference | Structured knowledge snippet |
-| **KYC Agent** | Handles compliance and identity verification | Customer data | Verification summary |
+| **KYC Agent** | Handles customer profile and identity verification | Customer data | Verification summary |
 | **Resourcing Agent** | Suggests staffing and scheduling solutions | Availability data, workload | Staffing recommendation |
 | **Handover Agent** | Prepares case transition documentation | Case log, summary | Transfer-ready handover document |
 
@@ -105,7 +105,7 @@ All of these agents log their **input, output, timestamp, and context snapshot**
 | Latency              | Execution efficiency                   | API timing logs          |
 | **Confidence Index** | Weighted composite of all above        | Aggregated scoring model |
 
-### **10. Roadmap (4 Weeks)**
+### **11. Roadmap (4 Weeks)**
 
 | **Week** | **Goal**                                        | **Deliverable**          |
 | -------- | ----------------------------------------------- | ------------------------ |
@@ -114,7 +114,7 @@ All of these agents log their **input, output, timestamp, and context snapshot**
 | 3        | Semantic evaluation + recommendation generation | Automated QA report      |
 | 4        | A/B testing + dashboard visualization           | Full QA Demo & Dashboard |
 
-### **10. Expected Impact**
+### **12. Expected Impact**
 
 | **Metric**                  | **Improvement**        |
 | --------------------------- | ---------------------- |
