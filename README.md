@@ -94,9 +94,38 @@ All of these agents log their **input, output, timestamp, and context snapshot**
 - QA engineers or managers review the report, approve or reject suggestions  
 - Accepted improvements feed back into **training and system config updates**
 
+### **10. Scoring Dimensions**
+
+| **Dimension**        | **Description**                        | **Evaluation Method**    |
+| -------------------- | -------------------------------------- | ------------------------ |
+| Accuracy             | Alignment with verified knowledge base | RAG + LLM fact-checking  |
+| Consistency          | No conflicts across agents’ outputs    | Cross-agent comparison   |
+| Completeness         | Structural and field integrity         | Rule-based validation    |
+| Tone / Format        | Style compliance with templates        | Regex + LLM tone check   |
+| Latency              | Execution efficiency                   | API timing logs          |
+| **Confidence Index** | Weighted composite of all above        | Aggregated scoring model |
+
+### **10. Roadmap (4 Weeks)**
+
+| **Week** | **Goal**                                        | **Deliverable**          |
+| -------- | ----------------------------------------------- | ------------------------ |
+| 1        | Log ingestion & data normalization              | Data Collector module    |
+| 2        | Rule-based checks                               | Basic scoring engine     |
+| 3        | Semantic evaluation + recommendation generation | Automated QA report      |
+| 4        | A/B testing + dashboard visualization           | Full QA Demo & Dashboard |
+
+### **10. Expected Impact**
+
+| **Metric**                  | **Improvement**        |
+| --------------------------- | ---------------------- |
+| Manual QA time              | ↓ 80%                  |
+| Output deviation            | ↓ 50%                  |
+| Prompt optimization cycle   | ↓ 70%                  |
+| Transparency & traceability | ↑ Real-time visibility |
+
 ---
 
-##  GitHub-Compatible Mermaid Diagram
+##  Mermaid Diagram
 
 ```mermaid
 flowchart TD
@@ -132,3 +161,4 @@ flowchart TD
     %% === Data Flow ===
     A -->|Agent Logs & Context| B1
     C3 -->|Continuous Improvement| A
+
